@@ -1,0 +1,9 @@
+#!/bin/sh
+
+php-fpm &
+
+nginx &
+
+mysqld_safe &
+
+python /root/boy.py
