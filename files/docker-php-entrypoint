@@ -1,6 +1,5 @@
 #!/bin/sh
 
-echo $FLAG > /flag
 sed -i "s/hctf{S0m3_iz_fun_m3thod3ed4rod}/$FLAG/" /var/www/html/class/class.php
 
 export FLAG=not_flag
